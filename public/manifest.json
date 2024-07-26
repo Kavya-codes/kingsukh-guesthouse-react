@@ -1,1 +1,21 @@
-
+{
+  "name": "Kingsukh Guest House", 
+  "short_name": "Kingsukh", 
+  "description": "Your ideal destination for a relaxing stay in Manpur, Baranti near Baranti Hill and Baranti Lake. Enjoy comfort, scenic views, and excellent hospitality. Call us at +91 9007062180.",
+  "start_url": "https://www.kingsukhguesthouse.com/", 
+  "display": "standalone", 
+  "background_color": "#ffffff", 
+  "theme_color": "#000000", 
+  "icons": [
+    {
+      "src": "/public/favicon/favicon[1].ico", //favicon
+      "sizes": "192x192", // Size of the icon
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
