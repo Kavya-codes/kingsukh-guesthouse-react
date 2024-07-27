@@ -1,1 +1,23 @@
-
+[
+  {
+    "id": 1,
+    "title": "Deluxe Suite",
+    "description": "Spacious suite with king-size bed, balcony, and stunning views.",
+    "price": 250,
+    "imageUrl": "https://example.com/deluxe-suite.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Standard Room",
+    "description": "Comfortable room with a queen-size bed and modern amenities.",
+    "price": 150,
+    "imageUrl": "https://example.com/standard-room.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Family Suite",
+    "description": "Spacious suite with two bedrooms, a living area, and a kitchenette.",
+    "price": 300,
+    "imageUrl": "https://example.com/family-suite.jpg"
+  }
+]
