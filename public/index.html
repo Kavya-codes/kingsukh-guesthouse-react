@@ -2,12 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/ico+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kingsukh Guest House</title>
     <link rel="stylesheet" href="/styles/Core/index.css" />
     <link rel="stylesheet" href="/styles/Core/App.css" />
     <link rel="stylesheet" href="/styles/Component-Specific/AboutSection.css />
+    <link rel="stylesheet" href="/styles/Component-Specific/BookingForm.css />
+    <link rel="stylesheet" href="/styles/Component-Specific/ContactForm.css />
+    <link rel="stylesheet" href="/styles/Component-Specific/ContactSection.css />
+    <link rel="stylesheet" href="/styles/Component-Specific/Footer.css />
+    <link rel="stylesheet" href="/styles/Component-Specific/GallerySection.css />
+    <link rel="stylesheet" href="/styles/Component-Specific/Header.css />
+    <link rel="stylesheet" href="/styles/Component-Specific/HomeSection.css />
+    <link rel="stylesheet" href="/styles/Component-Specific/RoomCard.css />
+    <link rel="stylesheet" href="/styles/Component-Specific/RoomSection.css />
+    <link rel="stylesheet" href="/styles/Component-Specific/ServiceSection.css />
+    <link rel="manifest" href="/public/manifest.json" />
   </head>
   <body>
     <header>
@@ -20,7 +31,8 @@
   </nav>
 </header>
     <div id="root"></div>
-    <script type="module" src="/src/index.tsx"></script>
+    <script type="module" src="/src/Core/index.tsx"></script>
+    <script type="module" src="/src/Core/App.tsx"></script>
     <section class="room-section">
   <h2>Our Rooms</h2>
   <div class="room-container">
