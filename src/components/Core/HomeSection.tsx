@@ -20,7 +20,7 @@ const HomeSection: React.FC = () => {
             </a>
           </div>
           <div className="home__image">
-            <img src="/assets/home-hero-image.jpg" alt="Kingsukh Guest House" />
+            <img src="/assets/1.jpg" alt="Kingsukh Guest House" />
           </div>
         </div>
       </div>
