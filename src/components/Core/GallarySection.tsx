@@ -1,5 +1,5 @@
 import React from 'react';
-import '.src/styles/Component-Specific/GallerySection.css'; 
+import ' styles/Component-Specific/GallerySection.css'; 
 
 const GallerySection: React.FC = () => {
   return (
