@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/Component-Specific/RoomsSection.css'; 
-import RoomCard from './components/Reusable/RoomCard.tsx'; 
+import ' styles/Component-Specific/RoomsSection.css'; 
+import RoomCard from ' components/Reusable/RoomCard.tsx'; 
 
 interface Room {
   name: string;
