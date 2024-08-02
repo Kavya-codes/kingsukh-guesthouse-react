@@ -9,10 +9,17 @@ interface Image {
 const ImageGallery: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images: Image[] = [
-    { src: '/assets/gallery/image1.jpg', alt: 'Gallery Image 1' },
-    { src: '/assets/gallery/image2.jpg', alt: 'Gallery Image 2' },
-    { src: '/assets/gallery/image3.jpg', alt: 'Gallery Image 3' },
-    { src: '/assets/gallery/image4.jpg', alt: 'Gallery Image 4' },
+    { src: '/assets/ayodhya.webp', alt: 'Gallery Image 1' },
+    { src: '/assets/baranti.webp', alt: 'Gallery Image 2' },
+    { src: '/assets/flower.jpg', alt: 'Gallery Image 3' },
+    { src: '/assets/large.jpg', alt: 'Gallery Image 4' },
+    { src: '/assets/mithonDam.webp', alt: 'Gallery Image 5'},
+    { src: '/assets/out.jpg', alt: 'Gallery Image 6' },
+    { src: '/assets/palash.webp', alt: 'Gallery Image 7' },
+    { src: '/assets/recep.jpg', alt: 'Gallery Image 8' },
+    { src: '/assets/room1.jpg', alt: 'Gallery Image 9' },
+    { src: '/assets/service.jpg', alt: 'Gallery Image 10' },
+    { src: '/assets/small.jpg', alt: 'Gallery Image 11'}
   ];
 
   const handleNext = () => {
