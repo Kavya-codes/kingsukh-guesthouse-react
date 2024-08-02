@@ -1,5 +1,5 @@
 import React from 'react';
-import '.src/styles/Component-Specific/AboutSection.css'; 
+import ' styles/Component-Specific/AboutSection.css'; 
 
 const AboutSection: React.FC = () => {
   return (
@@ -40,7 +40,7 @@ const AboutSection: React.FC = () => {
             </p>
           </div>
           <div className="about__image">
-            <img src="/assets/about-image.jpg" alt="About Kingsukh" />
+            <img src="/assets/out.jpg" alt="About Kingsukh" />
           </div>
         </div>
       </div>
