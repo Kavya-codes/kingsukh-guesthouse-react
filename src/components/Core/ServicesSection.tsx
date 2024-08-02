@@ -1,5 +1,5 @@
 import React from 'react';
-import '.styles/Component-Specific/ServiceSection.css'; 
+import ' styles/Component-Specific/ServiceSection.css'; 
 
 interface Service {
   name: string;
