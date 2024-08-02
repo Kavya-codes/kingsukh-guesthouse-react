@@ -1,5 +1,5 @@
 import React from 'react';
-import '.src/styles/Component-Specific/HomeSection.css'; 
+import ' styles/Component-Specific/HomeSection.css'; 
 
 const HomeSection: React.FC = () => {
   return (
